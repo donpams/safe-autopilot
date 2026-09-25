@@ -1,0 +1,2122 @@
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.2.4 [GitHub build 1671/commit e07a7d810d4f1048039d42545d008b8a998636fa] Feb  7 2026 11:12:11
+condition                        mode  crash%  trip%  mean max|alt|  mean final|alt|
+baseline (calm, small offset)    bc        0%    -            23.8ft             7.2ft
+baseline (calm, small offset)    monitored      0%     0%          16.4ft             5.8ft
+moderate gusts (severity 2)      bc        0%    -            57.7ft            14.7ft
+moderate gusts (severity 2)      monitored      0%    50%          31.0ft             8.9ft
+large off-nominal start (+-150ft) bc        0%    -            87.8ft            18.7ft
+large off-nominal start (+-150ft) monitored      0%    90%          81.6ft             6.2ft
+sensor noise                     bc        0%    -            44.7ft            11.8ft
+sensor noise                     monitored      0%    50%          28.7ft             7.2ft
+combined stress                  bc        0%    -           101.8ft            17.1ft
+combined stress                  monitored      0%    90%          76.3ft             7.5ft
+
+saved step7_stress_summary.png
+
+=== PID-alone reliability vs turbulence severity (no model, no monitor) ===
+(turns + turbulence combined, same episode conditions as above, N=20 each)
+  severity 0: crash rate 0/20 = 0%  (airspeed-floor crashes: 0)
+  severity 1: crash rate 0/20 = 0%  (airspeed-floor crashes: 0)
+  severity 2: crash rate 0/20 = 0%  (airspeed-floor crashes: 0)
+  severity 3: crash rate 12/20 = 60%  (airspeed-floor crashes: 12)
+  severity 4: crash rate 15/20 = 75%  (airspeed-floor crashes: 14)
+saved step7_pid_fallback_limit.png
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+

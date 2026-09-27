@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Safe Autopilot &mdash; Godwin Pammichukwu Emefiele Jr</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --panel: #f7f9fc;
+    --panel-2: #eef2f8;
+    --line: #dfe4ec;
+    --ink: #0f1d35;
+    --body: #3c4a63;
+    --muted: #73829b;
+    --blue: #17407a;
+    --blue-deep: #0d2c57;
+    --blue-tint: #e8eefa;
+    --gold: #c99a2e;
+    --gold-deep: #8a6a1a;
+    --gold-tint: #faf1de;
+    --radius: 4px;
+    font-size: 16px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--body);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    line-height: 1.55;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: 'Space Grotesk', system-ui, sans-serif; font-weight: 600; margin: 0; color: var(--ink); }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  a { color: var(--blue); }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+  .wrap--wide { max-width: 1080px; }
+  button { font-family: inherit; cursor: pointer; }
+
+  /* ---------- top bar ---------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 20;
+    background: #ffffffee; backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+    padding: env(safe-area-inset-top, 0px) 0 0 0;
+  }
+  .topbar__inner { max-width: 1080px; margin: 0 auto; padding: 0.7rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+  .topbar__name { font-family: 'Space Grotesk', sans-serif; font-size: 0.95rem; font-weight: 600; color: var(--ink); }
+  .topbar__links { display: flex; gap: 1.4rem; font-size: 0.85rem; }
+  .topbar__links a + a { margin-left: 1.4rem; }
+  .topbar__links a { color: var(--muted); text-decoration: none; }
+  .topbar__links a:hover { color: var(--blue); }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 4.2rem 0 2.5rem; }
+  .hero__title {
+    font-size: clamp(2.4rem, 6vw, 3.6rem);
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .hero__sub { margin-top: 1rem; max-width: 42ch; font-size: 1.12rem; color: var(--body); }
+  .hero__byline { margin-top: 1.3rem; font-size: 0.88rem; color: var(--muted); }
+  .hero__byline b { color: var(--ink); font-weight: 500; }
+  .hero__cta { margin-top: 1.9rem; display: flex; gap: 0.9rem; flex-wrap: wrap; }
+  .statuspill {
+    margin-top: 1.4rem; display: inline-flex; align-items: center; gap: 0.55rem;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem; color: var(--body);
+    border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 0.35rem 0.9rem;
+  }
+  .statuspill b { color: var(--blue); font-weight: 500; }
+  .statuspill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex: none; margin-right: 0.55rem; animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+  @media (prefers-reduced-motion: reduce) { .statuspill .dot { animation: none; } }
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.64rem 1.2rem; border-radius: var(--radius);
+    font-size: 0.9rem; font-weight: 500; text-decoration: none;
+    border: 1px solid var(--line); transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  }
+  .btn--primary { background: var(--gold); color: #2a1f04; border-color: var(--gold); }
+  .btn--primary:hover { background: #d9ac47; }
+  .btn--ghost { color: var(--blue); border-color: var(--blue); background: #fff; }
+  .btn--ghost:hover { background: var(--blue-tint); }
+  .btn:active { transform: translateY(1px); }
+
+  /* ---------- flight trace ---------- */
+  .trace {
+    margin-top: 3rem;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.3rem 1.3rem 1.1rem;
+  }
+  .trace__head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.6rem; flex-wrap: wrap; gap: 0.5rem; }
+  .trace__label { font-size: 0.78rem; color: var(--muted); }
+  .trace__controls { display: flex; align-items: center; gap: 0.9rem; }
+  .trace__status {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.76rem; padding: 0.22rem 0.6rem;
+    border-radius: var(--radius); border: 1px solid var(--blue); color: var(--blue);
+    transition: color 0.25s, border-color 0.25s; background: var(--blue-tint);
+  }
+  .trace__status.is-caution { color: var(--gold-deep); border-color: var(--gold); background: var(--gold-tint); }
+  .trace__replay {
+    font-size: 0.76rem; color: var(--muted); background: #fff; border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 0.22rem 0.6rem; display: inline-flex; align-items: center; gap: 0.3rem;
+  }
+  .trace__replay:hover { border-color: var(--blue); color: var(--blue); }
+  .trace__toggle { display: flex; align-items: center; gap: 0.4rem; font-size: 0.76rem; color: var(--muted); user-select: none; }
+  .trace__toggle input { accent-color: var(--blue); }
+  .trace svg { display: block; width: 100%; height: auto; touch-action: none; cursor: crosshair; }
+  .trace__readout {
+    display: flex; gap: 1.6rem; margin-top: 0.7rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap;
+  }
+  .trace__readout span + span { margin-left: 1.6rem; }
+  .trace__readout span b { color: var(--ink); font-weight: 500; }
+  .trace__caption { margin-top: 0.9rem; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 0.8rem; }
+  .trace__hint { font-size: 0.74rem; color: var(--muted); opacity: 0.85; }
+
+  /* ---------- sections ---------- */
+  section { padding: 3.4rem 0; border-top: 1px solid var(--line); }
+  .section__kicker { font-size: 0.8rem; color: var(--gold-deep); margin-bottom: 0.5rem; }
+  .section__title { font-size: clamp(1.5rem, 3vw, 1.9rem); max-width: 26ch; color: var(--ink); }
+  .section__intro { margin-top: 0.9rem; max-width: 62ch; color: var(--body); font-size: 1rem; }
+
+  /* ---------- architecture ---------- */
+  .arch { margin-top: 2.2rem; display: grid; gap: 0.9rem; }
+  .arch__row { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.9rem; align-items: stretch; }
+  .arch__box {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 0.95rem 1rem; font-size: 0.88rem; transition: border-color 0.15s, background 0.15s;
+  }
+  .arch__box b { display: block; font-family: 'Space Grotesk', sans-serif; font-size: 0.95rem; margin-bottom: 0.25rem; color: var(--ink); }
+  .arch__box--fallback { border-color: var(--gold); }
+  .arch__box--fallback:hover { background: var(--gold-tint); }
+  .arch__box--policy { border-color: var(--blue); }
+  .arch__box--policy:hover { background: var(--blue-tint); }
+  .arch__box:hover { border-width: 1px; }
+  .arch__arrow { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 1.2rem; }
+  .arch__sim { margin-top: 0.2rem; background: var(--panel-2); border: 1px dashed var(--line); border-radius: var(--radius); padding: 0.8rem 1rem; font-size: 0.85rem; color: var(--muted); text-align: center; }
+
+  /* ---------- log (what went wrong) ---------- */
+  .log { margin-top: 2.4rem; }
+  .log__item {
+    position: relative; border: 1px solid var(--line); border-radius: var(--radius);
+    margin-bottom: 0.7rem; background: #fff; overflow: hidden;
+  }
+  .log__item summary {
+    list-style: none; cursor: pointer; padding: 0.85rem 1rem; display: flex; align-items: center; gap: 0.7rem;
+    font-family: 'Space Grotesk', sans-serif; font-size: 1.02rem; font-weight: 600; color: var(--ink);
+  }
+  .log__item summary::-webkit-details-marker { display: none; }
+  .log__item summary .chev { flex: none; width: 9px; height: 9px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: rotate(-45deg); transition: transform 0.18s; margin-right: 0.2rem; }
+  .log__item[open] summary .chev { transform: rotate(45deg); }
+  .log__item summary:hover { background: var(--panel); }
+  .log__body { padding: 0 1rem 1.1rem 2.5rem; }
+  .log__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.9rem; }
+  .log__field { font-size: 0.85rem; }
+  .log__field span { display: block; font-size: 0.72rem; color: var(--gold-deep); margin-bottom: 0.2rem; font-family: 'IBM Plex Mono', monospace; }
+  .log__field p { margin: 0; color: var(--body); }
+
+  /* ---------- validation ---------- */
+  .stats { margin-top: 2.2rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .stat { background: #fff; padding: 1.2rem 1.1rem; }
+  .stat__num { font-family: 'IBM Plex Mono', monospace; font-size: 1.7rem; color: var(--blue); }
+  .stat__label { margin-top: 0.35rem; font-size: 0.8rem; color: var(--muted); }
+
+  .chart-card { margin-top: 2.4rem; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.3rem 1.3rem 1.1rem; }
+  .chart-card + .chart-card { margin-top: 1.6rem; }
+  .chart-card__title { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; font-weight: 600; color: var(--ink); }
+  .chart-card__cap { margin-top: 0.9rem; font-size: 0.85rem; color: var(--muted); max-width: 68ch; border-top: 1px solid var(--line); padding-top: 0.8rem; }
+  .chart-card__cap b { color: var(--ink); font-weight: 500; }
+  .chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .legend { display: flex; gap: 1.2rem; margin-top: 0.4rem; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; }
+  .legend span + span { margin-left: 1.2rem; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 0.35rem; vertical-align: -1px; }
+
+  .tooltip {
+    position: absolute; pointer-events: none; background: var(--blue-deep); color: #fff;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; padding: 0.32rem 0.55rem; border-radius: 3px;
+    transform: translate(-50%, -120%); white-space: nowrap; opacity: 0; transition: opacity 0.1s; z-index: 5;
+  }
+  .tooltip.is-visible { opacity: 1; }
+  .chart-wrap { position: relative; }
+
+  .fullplots { margin-top: 1rem; font-size: 0.82rem; color: var(--muted); }
+
+  /* ---------- technical detail disclosures ---------- */
+  .techinfo { margin-top: 0.6rem; }
+  .techinfo summary {
+    cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 0.4rem;
+    font-size: 0.8rem; color: var(--blue); font-weight: 500;
+  }
+  .techinfo summary::-webkit-details-marker { display: none; }
+  .techinfo summary .ic {
+    width: 15px; height: 15px; border-radius: 50%; border: 1px solid var(--blue);
+    display: inline-flex; align-items: center; justify-content: center; font-size: 10px;
+    font-family: 'IBM Plex Mono', monospace; color: var(--blue); flex: none;
+  }
+  .techinfo summary:hover { color: var(--blue-deep); }
+  .techinfo[open] summary { margin-bottom: 0.5rem; }
+  .techinfo p {
+    margin: 0; padding: 0.65rem 0.8rem; background: var(--panel); border-left: 2px solid var(--blue);
+    border-radius: 2px; color: var(--body); font-family: 'IBM Plex Mono', monospace; font-size: 0.76rem; line-height: 1.55;
+  }
+
+  /* ---------- footer ---------- */
+  footer { padding: 2.8rem 0 3.4rem; border-top: 1px solid var(--line); }
+  .footer__note { font-size: 0.8rem; color: var(--muted); }
+
+  @media (max-width: 640px) {
+    .arch__row { grid-template-columns: 1fr; }
+    .arch__arrow { transform: rotate(90deg); padding: 0.2rem 0; }
+    .log__grid { grid-template-columns: 1fr; }
+    .log__body { padding-left: 1rem; }
+    .stats { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar__inner">
+    <div class="topbar__name">Safe Autopilot</div>
+    <div class="topbar__links">
+      <a href="#log">What went wrong</a>
+      <a href="#validation">Results</a>
+      <a href="https://github.com/donpams/safe-autopilot" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <section class="hero" style="border:none; padding-bottom:0;">
+    <h1 class="hero__title">A learned autopilot,<br>watched by a safer one.</h1>
+    <p class="hero__sub">This project teaches a computer to fly a simulated small plane by copying a traditional autopilot that already works well &mdash; then adds a safety system that takes the controls back the instant the AI starts flying badly.</p>
+    <details class="techinfo">
+      <summary><span class="ic">i</span>more technical detail</summary>
+      <p>A neural network is trained via behavior cloning to imitate a PID controller flying a JSBSim Cessna 172 simulation. A separate runtime safety monitor checks the aircraft's true state every control step and switches to the PID whenever bank, pitch, altitude error, or airspeed leaves a validated envelope.</p>
+    </details>
+    <p class="hero__byline"><b>Godwin Pammichukwu Emefiele Jr</b> &nbsp;&middot;&nbsp; built with JSBSim, Gymnasium, and PyTorch</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="https://github.com/donpams/safe-autopilot" target="_blank" rel="noopener">View the code on GitHub</a>
+      <a class="btn btn--ghost" href="https://github.com/donpams/safe-autopilot/blob/main/WRITEUP.pdf" target="_blank" rel="noopener">Read the one-page writeup</a>
+    </div>
+    <div class="statuspill"><span class="dot"></span><span class="statuspill__text"><b>v1</b> complete &mdash; <b>v2</b> (reinforcement learning) in progress</span></div>
+
+    <div class="trace">
+      <div class="trace__head">
+        <span class="trace__label">altitude error &middot; recorded flight, case A &middot; t = 0&ndash;120s</span>
+        <div class="trace__controls">
+          <label class="trace__toggle"><input type="checkbox" id="toggleBc" checked> model without monitor</label>
+          <button class="trace__replay" id="replayBtn">&#8635; replay</button>
+          <span class="trace__status mono" id="traceStatus">NOMINAL</span>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <svg id="traceSvg" viewBox="0 0 860 220" preserveAspectRatio="none" aria-label="Altitude error over time, showing the monitor handing off from the learned model to the PID at t=31s">
+          <line x1="0" y1="70" x2="860" y2="70" stroke="#c99a2e66" stroke-width="1" stroke-dasharray="3 4"/>
+          <line x1="0" y1="150" x2="860" y2="150" stroke="#c99a2e66" stroke-width="1" stroke-dasharray="3 4"/>
+          <line x1="0" y1="110" x2="860" y2="110" stroke="#c9d2e0" stroke-width="1"/>
+          <path id="traceBc" d="" fill="none" stroke="#9aa6ba" stroke-width="1.6" stroke-dasharray="4 3"/>
+          <path id="traceLive" d="" fill="none" stroke="#17407a" stroke-width="2.2"/>
+          <circle id="tripDot" cx="0" cy="0" r="0" fill="#c99a2e"/>
+          <circle id="scrubDot" cx="-10" cy="-10" r="4" fill="#17407a" stroke="#fff" stroke-width="1.5"/>
+          <rect id="traceCapture" x="0" y="0" width="860" height="220" fill="transparent"/>
+        </svg>
+      </div>
+      <div class="trace__readout">
+        <span>t = <b id="rT">0.0</b>s</span>
+        <span>alt error = <b id="rAlt">+25.0</b> ft</span>
+        <span>controller = <b id="rCtl">learned model</b></span>
+      </div>
+      <p class="trace__caption">The dashed line shows what happens if the AI flies completely on its own for the full two minutes &mdash; it never recovers, drifting further off course the whole time. The solid line starts exactly the same way, but this time the safety monitor is watching: it steps in at 31 seconds and hands control to the traditional autopilot, which brings the plane back under control. <span class="trace__hint">Move your cursor over the chart to scrub through the flight.</span></p>
+      <details class="techinfo">
+        <summary><span class="ic">i</span>more technical detail</summary>
+        <p>Monitor trips on: |bank| &gt; 30&deg;, |pitch| &gt; 12&deg;, |altitude error| &gt; 35ft, or airspeed outside 85&ndash;120kts. In this recorded run, altitude error crossed the 35ft threshold at t = 31.1s. The fallback is latching &mdash; once engaged, it flies for the rest of the episode.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="architecture">
+    <p class="section__kicker">how it flies</p>
+    <h2 class="section__title">One controller you can trust, one you're testing.</h2>
+    <p class="section__intro">The safety monitor checks on the plane 20 times every second. As long as things look normal, the AI does the flying. The moment something looks wrong, control switches to the traditional autopilot for the rest of that flight &mdash; once it steps in, it doesn't hand control back.</p>
+    <details class="techinfo">
+      <summary><span class="ic">i</span>more technical detail</summary>
+      <p>Checked every 50ms (20Hz): bank angle, pitch angle, altitude error, and airspeed, each against a threshold set with margin above the PID's own worst-case nominal behavior. The fallback latches by design &mdash; re-entering the envelope does not hand control back mid-episode.</p>
+    </details>
+    <div class="arch">
+      <div class="arch__row">
+        <div class="arch__box arch__box--policy"><b>Learned policy</b>behavior-cloned from the PID now; reinforcement-learned in v2</div>
+        <div class="arch__arrow">&rarr;</div>
+        <div class="arch__box"><b>Safety monitor</b>bank, pitch, altitude error, and airspeed against evidence-based limits</div>
+      </div>
+      <div class="arch__row">
+        <div class="arch__box arch__box--fallback"><b>PID fallback</b>cascaded altitude/heading hold &mdash; the known-safe baseline</div>
+        <div class="arch__arrow">&rarr;</div>
+        <div class="arch__box"><b>Aircraft state</b>fed back to the monitor every control step</div>
+      </div>
+    </div>
+    <div class="arch__sim">JSBSim Cessna 172 simulation &middot; 20Hz control loop</div>
+  </section>
+
+  <section id="log">
+    <p class="section__kicker">what went wrong</p>
+    <h2 class="section__title">Five real bugs, found by testing, not guessing.</h2>
+    <p class="section__intro">Every threshold and design choice on this page traces back to one of these. Click any one for the root cause, how it was caught, and the fix.</p>
+
+    <div class="log">
+      <details class="log__item" open>
+        <summary><span class="chev"></span>Heading-wrap discontinuity</summary>
+        <div class="log__body"><div class="log__grid">
+          <div class="log__field"><span>root cause</span><p>Crossing 360&deg;/0&deg; produced a 358&deg; error instead of 2&deg;, commanding a hard turn the wrong way.</p></div>
+          <div class="log__field"><span>caught by</span><p>Reading the very first hands-off trim plot, before writing any controller.</p></div>
+          <div class="log__field"><span>fix</span><p>Wrapped heading error to [-180&deg;, 180&deg;) inside the environment itself.</p></div>
+        </div></div>
+      </details>
+      <details class="log__item">
+        <summary><span class="chev"></span>Deterministic turbulence</summary>
+        <div class="log__body"><div class="log__grid">
+          <div class="log__field"><span>root cause</span><p>JSBSim's gust model defaults to a fixed internal seed &mdash; every training episode got the identical disturbance.</p></div>
+          <div class="log__field"><span>caught by</span><p>Tracing raw state across different episode seeds and finding identical values.</p></div>
+          <div class="log__field"><span>fix</span><p>Explicitly randomized <span class="mono">atmosphere/randomseed</span> once per episode.</p></div>
+        </div></div>
+      </details>
+      <details class="log__item">
+        <summary><span class="chev"></span>The imitation model loses integral memory</summary>
+        <div class="log__body"><div class="log__grid">
+          <div class="log__field"><span>root cause</span><p>The PID's altitude loop integrates error over time; the cloned model only sees instantaneous state, so small regression errors compound over the aircraft's ~30s phugoid mode.</p></div>
+          <div class="log__field"><span>caught by</span><p>Extending the evaluation horizon to 120s, after the model looked fine at 60s.</p></div>
+          <div class="log__field"><span>fix</span><p>Not fixed &mdash; this is the reason the safety monitor exists, and why v2 moves to RL.</p></div>
+        </div></div>
+      </details>
+      <details class="log__item">
+        <summary><span class="chev"></span>PID mis-trims when engaged mid-flight</summary>
+        <div class="log__body"><div class="log__grid">
+          <div class="log__field"><span>root cause</span><p>The PID captured whatever pitch it saw on its first call as &ldquo;level.&rdquo; Correct at a fresh reset, wrong when the monitor engages it mid-oscillation.</p></div>
+          <div class="log__field"><span>caught by</span><p>Integration-testing the full monitor+fallback system &mdash; invisible to a PID-only unit test.</p></div>
+          <div class="log__field"><span>fix</span><p>The environment now computes true trim pitch and the PID takes it explicitly.</p></div>
+        </div></div>
+      </details>
+      <details class="log__item">
+        <summary><span class="chev"></span>The fallback has no airspeed protection</summary>
+        <div class="log__body"><div class="log__grid">
+          <div class="log__field"><span>root cause</span><p>The PID only flies elevator and aileron. A bank plus a headwind gust can bleed airspeed past the stall floor with nothing to stop it.</p></div>
+          <div class="log__field"><span>caught by</span><p>A systematic stress sweep across turbulence severity, independent of the model or monitor.</p></div>
+          <div class="log__field"><span>fix</span><p>Documented scope limit: reliable to severity 2, 60&ndash;75% crash rate above it. Flagged for a throttle loop in v2.</p></div>
+        </div></div>
+      </details>
+    </div>
+  </section>
+
+  <section id="validation">
+    <p class="section__kicker">does the monitor actually help?</p>
+    <h2 class="section__title">Stress-tested against turbulence, sensor noise, and bad starts.</h2>
+    <p class="section__intro">I ran the same test scenario 20 times per condition, each a minute and a half long, comparing the AI flying completely alone against the AI with the safety monitor watching over it.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="stat__num">0%</div><div class="stat__label">monitored crash rate across every stress condition tested</div></div>
+      <div class="stat"><div class="stat__num">2&ndash;3&times;</div><div class="stat__label">better final altitude tracking with the monitor engaged</div></div>
+      <div class="stat"><div class="stat__num">sev. 3</div><div class="stat__label">the fallback's own reliability cliff, reproduced on two JSBSim builds</div></div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card__title">PID baseline: heading +30&deg;, altitude &minus;80ft, at the same time</div>
+      <div class="chart-wrap">
+        <svg id="baseSvg" viewBox="0 0 820 210" preserveAspectRatio="none" aria-label="Altitude and heading error converging to zero over 60 seconds">
+          <line x1="0" y1="42" x2="820" y2="42" stroke="#e3e7ee" stroke-width="1"/>
+          <line x1="0" y1="105" x2="820" y2="105" stroke="#c9d2e0" stroke-width="1"/>
+          <line x1="0" y1="168" x2="820" y2="168" stroke="#e3e7ee" stroke-width="1"/>
+          <path id="baseAlt" fill="none" stroke="#17407a" stroke-width="2.2"/>
+          <path id="baseHdg" fill="none" stroke="#c99a2e" stroke-width="2.2"/>
+        </svg>
+      </div>
+      <div class="legend">
+        <span><i style="background:#17407a"></i>altitude error (ft)</span>
+        <span><i style="background:#c99a2e"></i>heading error (deg)</span>
+      </div>
+      <p class="chart-card__cap"><b>The baseline everything else rests on.</b> Before teaching a computer anything, I made sure the traditional autopilot could handle a real test: turning and climbing at the same time. It handled both smoothly &mdash; exactly why it's trustworthy enough to be the safety net.</p>
+      <details class="techinfo">
+        <summary><span class="ic">i</span>more technical detail</summary>
+        <p>Combined 30&deg; heading change and 80ft altitude change, commanded simultaneously. Max bank angle 20.6&deg;. Heading settled to within 2&deg; by 15.2s; altitude settled to within 5ft by 42.5s.</p>
+      </details>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card__title">Model alone vs. monitored, across five stress conditions</div>
+      <div class="chart-wrap">
+        <svg id="barSvg" viewBox="0 0 820 240" aria-label="Bar chart of mean final altitude error, model alone versus monitored"></svg>
+        <div class="tooltip" id="barTooltip"></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:#9aa6ba"></i>model alone</span>
+        <span><i style="background:#17407a"></i>model + monitor</span>
+      </div>
+      <p class="chart-card__cap"><b>How far off-target the plane ended up</b>, on average, flying alone vs. with the safety monitor watching &mdash; shorter bars are better. The monitor made a real difference in every scenario tested, from calm air to turbulence, sensor noise, and bad starting positions.</p>
+      <details class="techinfo">
+        <summary><span class="ic">i</span>more technical detail</summary>
+        <p>20 episodes per condition, 90s each. Mean final |altitude error|, model alone &rarr; monitored: baseline 7.2&rarr;5.8ft; moderate gusts 14.7&rarr;8.9ft; large off-nominal start 18.7&rarr;6.2ft; sensor noise 11.8&rarr;7.2ft; combined stress 17.1&rarr;7.5ft.</p>
+      </details>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card__title">The PID fallback's own reliability limit</div>
+      <div class="chart-wrap">
+        <svg id="lineSvg" viewBox="0 0 820 220" aria-label="Line chart showing PID-alone crash rate rising sharply above turbulence severity 2"></svg>
+        <div class="tooltip" id="lineTooltip"></div>
+      </div>
+      <p class="chart-card__cap"><b>This one has nothing to do with the AI or the monitor.</b> It's the traditional autopilot flying completely on its own in increasingly rough air. It handles light-to-moderate turbulence fine, but this simple version can't adjust engine power mid-flight, so strong turbulence plus a turn can slow the plane down dangerously. I found this limit through deliberate testing, and I'm documenting it rather than hiding it.</p>
+      <details class="techinfo">
+        <summary><span class="ic">i</span>more technical detail</summary>
+        <p>Turbulence severity follows JSBSim's MIL-F-8785C-style scale (roughly 1=light to 6=severe). PID-alone crash rate: severity 0&ndash;2 &rarr; 0%; severity 3 &rarr; 60%; severity 4 &rarr; 75% (reproduced across two JSBSim builds). Root cause: no throttle/autothrottle loop, so a bank plus a headwind gust can bleed airspeed through the 50kt floor.</p>
+      </details>
+      <p class="fullplots">Full technical plots (all five build steps, matplotlib output): <a href="https://github.com/donpams/safe-autopilot" target="_blank" rel="noopener">see the repository</a>.</p>
+    </div>
+  </section>
+</div>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="footer__note">Godwin Pammichukwu Emefiele Jr &middot; Safe Autopilot v1 complete, v2 (reinforcement learning) in progress</div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  /* ================= hero trace ================= */
+  var live = [[0,25],[6,10],[12,-23],[18,-14],[23,2],[27,-10],[31.1,-35.1],[38,-32],[46,-19],[55,-8],[65,-1],[75,4],[85,6],[95,2],[105,0],[113,3],[120,-3]];
+  var bc =   [[0,25],[6,10],[12,-23],[18,-14],[23,2],[27,-10],[31.1,-35.1],[38,-52],[46,-70],[55,-88],[65,-100],[75,-112],[85,-121],[95,-129],[105,-135],[113,-138],[120,-140]];
+  var tripT = 31.1;
+
+  function yMap(v) { var vMin=-145, vMax=40, yTop=12, yBot=205; return yTop + (vMax - v) / (vMax - vMin) * (yBot - yTop); }
+  function xMap(t) { return (t / 120) * 860; }
+  function buildPath(pts) { return pts.map(function (p, i) { return (i===0?"M":"L") + xMap(p[0]).toFixed(1) + "," + yMap(p[1]).toFixed(1); }).join(" "); }
+  function interp(pts, t) {
+    for (var i = 0; i < pts.length - 1; i++) {
+      if (t >= pts[i][0] && t <= pts[i+1][0]) {
+        var f = (t - pts[i][0]) / (pts[i+1][0] - pts[i][0]);
+        return pts[i][1] + f * (pts[i+1][1] - pts[i][1]);
+      }
+    }
+    return pts[pts.length - 1][1];
+  }
+
+  var liveEl = document.getElementById("traceLive");
+  var bcEl = document.getElementById("traceBc");
+  var tripDot = document.getElementById("tripDot");
+  var scrubDot = document.getElementById("scrubDot");
+  var statusEl = document.getElementById("traceStatus");
+  var rT = document.getElementById("rT"), rAlt = document.getElementById("rAlt"), rCtl = document.getElementById("rCtl");
+  var svg = document.getElementById("traceSvg");
+  var capture = document.getElementById("traceCapture");
+  var replayBtn = document.getElementById("replayBtn");
+  var toggleBc = document.getElementById("toggleBc");
+
+  bcEl.setAttribute("d", buildPath(bc));
+  liveEl.setAttribute("d", buildPath(live));
+  tripDot.setAttribute("cx", xMap(tripT).toFixed(1));
+  tripDot.setAttribute("cy", yMap(-35.1).toFixed(1));
+  tripDot.setAttribute("r", 4);
+
+  var prefersReduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function setReadout(t) {
+    rT.textContent = t.toFixed(1);
+    var altVal = interp(live, t);
+    rAlt.textContent = (altVal >= 0 ? "+" : "") + altVal.toFixed(1);
+    if (t >= tripT) {
+      rCtl.textContent = "PID fallback"; statusEl.textContent = "MONITOR ACTIVE"; statusEl.classList.add("is-caution");
+    } else {
+      rCtl.textContent = "learned model"; statusEl.textContent = "NOMINAL"; statusEl.classList.remove("is-caution");
+    }
+    scrubDot.setAttribute("cx", xMap(t).toFixed(1));
+    scrubDot.setAttribute("cy", yMap(altVal).toFixed(1));
+  }
+
+  function playIntro() {
+    var len = liveEl.getTotalLength();
+    liveEl.style.transition = "none";
+    liveEl.style.strokeDasharray = len; liveEl.style.strokeDashoffset = len;
+    scrubDot.setAttribute("r", 0);
+    liveEl.getBoundingClientRect();
+    liveEl.style.transition = "stroke-dashoffset 3.6s linear";
+    var start = null, duration = 3600, scrubbing = false;
+    function frame(ts) {
+      if (scrubbing) return;
+      if (!start) start = ts;
+      var p = Math.min(1, (ts - start) / duration);
+      setReadout(p * 120);
+      if (p < 1) requestAnimationFrame(frame);
+      else scrubDot.setAttribute("r", 4);
+    }
+    requestAnimationFrame(function () {
+      liveEl.style.strokeDashoffset = "0";
+      requestAnimationFrame(frame);
+    });
+    capture.onmousemove = function (e) {
+      scrubbing = true;
+      liveEl.style.transition = "none"; liveEl.style.strokeDashoffset = "0";
+      scrubDot.setAttribute("r", 4);
+      var rect = svg.getBoundingClientRect();
+      var x = (e.clientX - rect.left) / rect.width * 860;
+      var t = Math.max(0, Math.min(120, (x / 860) * 120));
+      setReadout(t);
+    };
+  }
+
+  if (prefersReduced) {
+    liveEl.style.strokeDasharray = "none"; liveEl.style.strokeDashoffset = "0";
+    setReadout(120); scrubDot.setAttribute("r", 4);
+  } else {
+    playIntro();
+  }
+  replayBtn.addEventListener("click", function () { if (!prefersReduced) playIntro(); });
+  toggleBc.addEventListener("change", function () { bcEl.style.display = toggleBc.checked ? "" : "none"; });
+
+  /* ================= baseline chart ================= */
+  var altPts = [[0,-80],[5,-58],[10,-38],[15,-24],[20,-15],[25,-7],[30,-1],[35,2],[42,3],[50,4],[60,3]];
+  var hdgPts = [[0,-30],[3,-28],[6,-21],[9,-13],[12,-7],[15,-2],[18,0.3],[25,0.4],[35,0.2],[50,0.1],[60,0.1]];
+  function yAlt(v) { return 105 - (v / 90) * 90; }
+  function yHdg(v) { return 105 - (v / 32) * 62; }
+  function xB(t) { return (t / 60) * 820; }
+  function pathFrom(pts, ymap) { return pts.map(function(p,i){ return (i===0?"M":"L") + xB(p[0]).toFixed(1) + "," + ymap(p[1]).toFixed(1); }).join(" "); }
+  document.getElementById("baseAlt").setAttribute("d", pathFrom(altPts, yAlt));
+  document.getElementById("baseHdg").setAttribute("d", pathFrom(hdgPts, yHdg));
+
+  /* ================= stress bar chart ================= */
+  var cats = ["baseline\n(calm)","moderate\ngusts","large\noff-nominal\nstart","sensor\nnoise","combined\nstress"];
+  var bcVals = [7.2, 14.7, 18.7, 11.8, 17.1];
+  var monVals = [5.8, 8.9, 6.2, 7.2, 7.5];
+  var barSvg = document.getElementById("barSvg");
+  var barTip = document.getElementById("barTooltip");
+  (function () {
+    var W = 820, H = 240, padL = 34, padR = 10, padT = 14, padB = 54;
+    var plotW = W - padL - padR, plotH = H - padT - padB;
+    var maxV = 20;
+    var groupW = plotW / cats.length;
+    var barW = groupW * 0.3;
+    var ns = "http://www.w3.org/2000/svg";
+    function el(tag, attrs) { var e = document.createElementNS(ns, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+    [0,5,10,15,20].forEach(function (g) {
+      var y = padT + plotH - (g / maxV) * plotH;
+      barSvg.appendChild(el("line", {x1:padL, x2:W-padR, y1:y, y2:y, stroke:"#e3e7ee", "stroke-width":1}));
+      var t = el("text", {x:padL-8, y:y+3, "text-anchor":"end", "font-size":10, fill:"#73829b", "font-family":"IBM Plex Mono, monospace"});
+      t.textContent = g; barSvg.appendChild(t);
+    });
+    cats.forEach(function (cat, i) {
+      var gx = padL + i * groupW;
+      var bx1 = gx + groupW/2 - barW - 3, bx2 = gx + groupW/2 + 3;
+      [["model alone", bcVals[i], bx1, "#9aa6ba"], ["monitored", monVals[i], bx2, "#17407a"]].forEach(function (b) {
+        var h = (b[1] / maxV) * plotH;
+        var y = padT + plotH - h;
+        var rect = el("rect", {x:b[2], y:y, width:barW, height:h, fill:b[3], rx:2});
+        rect.style.cursor = "pointer";
+        rect.addEventListener("mouseenter", function (e) { showTip(barTip, barSvg, e, b[0] + ": " + b[1].toFixed(1) + " ft"); });
+        rect.addEventListener("mousemove", function (e) { moveTip(barTip, barSvg, e); });
+        rect.addEventListener("mouseleave", function () { hideTip(barTip); });
+        barSvg.appendChild(rect);
+      });
+      var lines = cat.split("\n");
+      lines.forEach(function (line, li) {
+        var lbl = el("text", {x:gx+groupW/2, y:H-padB+16+li*11, "text-anchor":"middle", "font-size":10, fill:"#73829b", "font-family":"IBM Plex Sans, sans-serif"});
+        lbl.textContent = line; barSvg.appendChild(lbl);
+      });
+    });
+  })();
+
+  /* ================= fallback limit line chart ================= */
+  var sev = [0,1,2,3,4];
+  var crashPct = [0,0,0,60,75];
+  var lineSvg = document.getElementById("lineSvg");
+  var lineTip = document.getElementById("lineTooltip");
+  (function () {
+    var W = 820, H = 220, padL = 40, padR = 20, padT = 16, padB = 34;
+    var plotW = W - padL - padR, plotH = H - padT - padB;
+    var maxV = 80;
+    var ns = "http://www.w3.org/2000/svg";
+    function el(tag, attrs) { var e = document.createElementNS(ns, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+    function xL(s) { return padL + (s / 4) * plotW; }
+    function yL(v) { return padT + plotH - (v / maxV) * plotH; }
+    [0,20,40,60,80].forEach(function (g) {
+      var y = yL(g);
+      lineSvg.appendChild(el("line", {x1:padL, x2:W-padR, y1:y, y2:y, stroke:"#e3e7ee", "stroke-width":1}));
+      var t = el("text", {x:padL-8, y:y+3, "text-anchor":"end", "font-size":10, fill:"#73829b", "font-family":"IBM Plex Mono, monospace"});
+      t.textContent = g + "%"; lineSvg.appendChild(t);
+    });
+    sev.forEach(function (s) {
+      var t = el("text", {x:xL(s), y:H-10, "text-anchor":"middle", "font-size":10, fill:"#73829b", "font-family":"IBM Plex Sans, sans-serif"});
+      t.textContent = "sev " + s; lineSvg.appendChild(t);
+    });
+    var d = sev.map(function (s, i) { return (i===0?"M":"L") + xL(s).toFixed(1) + "," + yL(crashPct[i]).toFixed(1); }).join(" ");
+    lineSvg.appendChild(el("path", {d:d, fill:"none", stroke:"#c99a2e", "stroke-width":2.4}));
+    sev.forEach(function (s, i) {
+      var c = el("circle", {cx:xL(s), cy:yL(crashPct[i]), r:5, fill:"#c99a2e", stroke:"#fff", "stroke-width":1.5});
+      c.style.cursor = "pointer";
+      c.addEventListener("mouseenter", function (e) { showTip(lineTip, lineSvg, e, "severity " + s + ": " + crashPct[i] + "% crash rate"); });
+      c.addEventListener("mousemove", function (e) { moveTip(lineTip, lineSvg, e); });
+      c.addEventListener("mouseleave", function () { hideTip(lineTip); });
+      lineSvg.appendChild(c);
+    });
+  })();
+
+  function showTip(tip, svgEl, e, text) { tip.textContent = text; tip.classList.add("is-visible"); moveTip(tip, svgEl, e); }
+  function moveTip(tip, svgEl, e) {
+    var rect = svgEl.getBoundingClientRect();
+    tip.style.left = (e.clientX - rect.left) + "px";
+    tip.style.top = (e.clientY - rect.top) + "px";
+  }
+  function hideTip(tip) { tip.classList.remove("is-visible"); }
+})();
+</script>
+
+</body>
+</html>

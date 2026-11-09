@@ -5,11 +5,9 @@ import numpy as np
 import jsbsim
 from gymnasium import spaces
 
-
 def wrap180(deg):
     """Wrap an angle in degrees to [-180, 180)."""
     return (deg + 180.0) % 360.0 - 180.0
-
 
 class C172Env(gym.Env):
     """JSBSim Cessna 172 wrapped as a Gymnasium environment.
@@ -106,8 +104,6 @@ class C172Env(gym.Env):
         self.turb_severity = turb_severity
 
         # Remember trim so actions are deviations from it.
-        # Note: JSBSim puts the elevator trim in the pitch-trim channel, so
-        # elevator-cmd-norm stays ~0 and we command the elevator directly.
         self.trim_aileron = f["fcs/aileron-cmd-norm"]
         self.trim_pitch_deg = f["attitude/theta-deg"]   # true level-flight trim, for any controller engaged later
         f["fcs/elevator-cmd-norm"] = 0.0
@@ -126,12 +122,60 @@ class C172Env(gym.Env):
         self.t = self.n_steps / self.CONTROL_HZ   # count steps; don't trust the sim clock across resets
 
         s = self.raw_state()
-        # Placeholder reward (unused in v1, needed for RL in v2)
-        reward = -(abs(s["alt_err_ft"]) / 100.0 + abs(s["hdg_err_deg"]) / 30.0)
 
         # "Crashed / lost control" limits, deliberately looser than the
         # safety monitor's envelope, which we define in step 6.
         terminated = bool(abs(s["bank_deg"]) > 70 or abs(s["pitch_deg"]) > 40
                           or abs(s["alt_err_ft"]) > 500 or s["cas_kts"] < 50)
         truncated = bool(self.t >= self.MAX_TIME_S)
+
+        reward = self._reward(s, a, terminated)
+
         return self._obs(), float(reward), terminated, truncated, {"raw": s}
+
+    def _reward(self, s, action, terminated):
+        """v2 shaped reward for RL (BC never used the placeholder; it only
+        copied the PID's actions).
+
+        REVISION NOTE (after the first 500k-step training run): the first
+        version of this reward had an unbounded per-step tracking/airspeed
+        penalty plus a flat -50 one-time crash penalty. That let PPO find a
+        real exploit: once a rollout starts diverging, the *per-step*
+        penalty (up to ~-16/step right at the termination boundary) adds up
+        to far more than -50 over even a few dozen steps, so "crash on
+        purpose, eat the -50 once" was the rational move whenever the
+        policy hadn't yet learned to recover. ep_len_mean collapsed from
+        ~400 steps early in training down to ~25 steps and stayed there --
+        the policy learned to end episodes fast, not to fly. This is the
+        textbook "reward hacking via early termination" failure mode,
+        caught here only because the full 500k-step run was actually
+        inspected rather than trusted on the strength of the pre-training
+        sanity check (which only tested PID-good and instant-max-crash,
+        never a slowly-diverging mediocre policy -- that gap is exactly
+        where this broke).
+
+        Fix, now in two parts instead of one:
+          1. Tracking + airspeed penalties are CAPPED per step, so no
+             matter how far off course the aircraft gets, one step can
+             never cost more than a bounded amount -- there's no more
+             "run away unboundedly, so better to just crash" arithmetic.
+          2. A small positive ALIVE bonus is paid every step the episode
+             continues. This makes survival itself valuable (the standard
+             fix used in e.g. Gymnasium's Hopper/Ant "healthy_reward"),
+             so ending the episode early always costs the policy real,
+             foregone future reward -- without needing a hand-tuned crash
+             constant large enough to dominate every possible bad patch.
+        The crash penalty stays, but now only needs to be a clear, modest
+        deterrent (not the sole thing standing between "fly" and "dive"),
+        since the capped per-step cost + alive bonus already remove the
+        incentive to end the episode on purpose.
+        """
+        track = min(abs(s["alt_err_ft"]) / 100.0, 2.0) + min(abs(s["hdg_err_deg"]) / 30.0, 1.0)
+        airspeed = min(abs(s["cas_kts"] - self.target_cas_kts) / 10.0, 1.0)
+        effort = 0.05 * float(np.sum(np.square(action)))
+        alive_bonus = 1.0
+
+        reward = alive_bonus - (track + airspeed + effort)
+        if terminated:
+            reward -= 20.0
+        return reward

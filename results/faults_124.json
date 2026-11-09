@@ -1,0 +1,170 @@
+{
+  "elev_bias_0.4|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 16.417703014053405,
+    "max_bank": 14.459650299582643,
+    "final_alt": 1.3799594478681683
+  },
+  "elev_bias_0.4|bc": {
+    "crash": 100.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 497.51093518808483,
+    "max_bank": 16.612053430245723,
+    "final_alt": 497.51093518808483
+  },
+  "elev_bias_0.4|bc+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 0.8450000000000001,
+    "max_alt": 29.95988723449409,
+    "max_bank": 13.973601495049987,
+    "final_alt": 1.0440246811136604
+  },
+  "elev_bias_0.4|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 45.47980944961309,
+    "max_bank": 29.80050495882196,
+    "final_alt": 32.54524269327521
+  },
+  "elev_bias_0.4|rl0+mon": {
+    "crash": 0.0,
+    "trip": 65.0,
+    "trip_t": 1.223076923076923,
+    "max_alt": 30.202504000067712,
+    "max_bank": 25.798918134855324,
+    "final_alt": 12.565515234321357
+  },
+  "elev_bias_0.4|rl1": {
+    "crash": 5.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 41.07133423555642,
+    "max_bank": 32.78987512257284,
+    "final_alt": 17.164003181830047
+  },
+  "elev_bias_0.4|rl1+mon": {
+    "crash": 0.0,
+    "trip": 55.0,
+    "trip_t": 0.8363636363636364,
+    "max_alt": 26.021547235921027,
+    "max_bank": 23.710936885983827,
+    "final_alt": 8.398907567933202
+  },
+  "aileron_stuck|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 16.01728736255318,
+    "max_bank": 13.708812624403365,
+    "final_alt": 1.3839436635375022
+  },
+  "aileron_stuck|bc": {
+    "crash": 100.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 29.722593727707864,
+    "max_bank": 69.4696071778652,
+    "final_alt": 28.33827670123428
+  },
+  "aileron_stuck|bc+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 1.6375,
+    "max_alt": 19.442198504135014,
+    "max_bank": 32.4480475837241,
+    "final_alt": 1.3705159364268185
+  },
+  "aileron_stuck|rl0": {
+    "crash": 100.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 37.281708013638855,
+    "max_bank": 69.50619769142052,
+    "final_alt": 37.281708013638855
+  },
+  "aileron_stuck|rl0+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 1.6175000000000004,
+    "max_alt": 16.255141438543795,
+    "max_bank": 32.406367210669735,
+    "final_alt": 1.159687654674053
+  },
+  "aileron_stuck|rl1": {
+    "crash": 100.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 27.663848074898123,
+    "max_bank": 69.34788988670383,
+    "final_alt": 21.55544780641794
+  },
+  "aileron_stuck|rl1+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 1.4474999999999998,
+    "max_alt": 19.039011412486435,
+    "max_bank": 30.696069614997278,
+    "final_alt": 1.112023863568902
+  },
+  "elev_bias+gusts|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 23.356482692994177,
+    "max_bank": 16.263215402589275,
+    "final_alt": 7.693616992793977
+  },
+  "elev_bias+gusts|bc": {
+    "crash": 100.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 497.3628244416788,
+    "max_bank": 16.721919165711874,
+    "final_alt": 497.3628244416788
+  },
+  "elev_bias+gusts|bc+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 1.0474999999999999,
+    "max_alt": 33.79427503831685,
+    "max_bank": 15.597390124654448,
+    "final_alt": 7.732963090017438
+  },
+  "elev_bias+gusts|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 56.60816397015005,
+    "max_bank": 34.28910858159785,
+    "final_alt": 31.51269295886159
+  },
+  "elev_bias+gusts|rl0+mon": {
+    "crash": 0.0,
+    "trip": 100.0,
+    "trip_t": 13.26,
+    "max_alt": 31.135577049851417,
+    "max_bank": 29.239475427021652,
+    "final_alt": 8.172924203053118
+  },
+  "elev_bias+gusts|rl1": {
+    "crash": 5.0,
+    "trip": null,
+    "trip_t": null,
+    "max_alt": 42.494247851893306,
+    "max_bank": 35.92254255217757,
+    "final_alt": 18.39750249516219
+  },
+  "elev_bias+gusts|rl1+mon": {
+    "crash": 0.0,
+    "trip": 75.0,
+    "trip_t": 0.8066666666666666,
+    "max_alt": 27.071052673459054,
+    "max_bank": 25.927260018982224,
+    "final_alt": 10.175157289206982
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sev0|pid": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev0|bc": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev0|rl0": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev0|rl1": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev1|pid": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev1|bc": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev1|rl0": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev1|rl1": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev2|pid": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev2|bc": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev2|rl0": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev2|rl1": {
+    "crash": 0.0,
+    "speed": 0
+  },
+  "sev3|pid": {
+    "crash": 50.0,
+    "speed": 10
+  },
+  "sev3|bc": {
+    "crash": 70.0,
+    "speed": 9
+  },
+  "sev3|rl0": {
+    "crash": 55.00000000000001,
+    "speed": 11
+  },
+  "sev3|rl1": {
+    "crash": 65.0,
+    "speed": 13
+  },
+  "sev4|pid": {
+    "crash": 65.0,
+    "speed": 12
+  },
+  "sev4|bc": {
+    "crash": 100.0,
+    "speed": 12
+  },
+  "sev4|rl0": {
+    "crash": 75.0,
+    "speed": 15
+  },
+  "sev4|rl1": {
+    "crash": 75.0,
+    "speed": 14
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "baseline (calm, small offset)|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 12.956610189005733,
+    "mean_final": 1.3897901693359018
+  },
+  "baseline (calm, small offset)|bc": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 17.53312352206558,
+    "mean_final": 6.6065410008654
+  },
+  "baseline (calm, small offset)|bc+mon": {
+    "crash": 0.0,
+    "trip": 5.0,
+    "mean_max": 17.353169314190744,
+    "mean_final": 6.193026505969465
+  },
+  "baseline (calm, small offset)|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 20.37264220472425,
+    "mean_final": 3.7567754620686173
+  },
+  "baseline (calm, small offset)|rl0+mon": {
+    "crash": 0.0,
+    "trip": 50.0,
+    "mean_max": 14.129416155070066,
+    "mean_final": 2.5483348911628125
+  },
+  "baseline (calm, small offset)|rl1": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 24.4444749686867,
+    "mean_final": 2.815944946743548
+  },
+  "baseline (calm, small offset)|rl1+mon": {
+    "crash": 0.0,
+    "trip": 60.0,
+    "mean_max": 18.29427174720913,
+    "mean_final": 2.119457720592618
+  },
+  "moderate gusts (severity 2)|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 22.71671628449112,
+    "mean_final": 8.054178534261883
+  },
+  "moderate gusts (severity 2)|bc": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 45.29725582152605,
+    "mean_final": 18.55287752132863
+  },
+  "moderate gusts (severity 2)|bc+mon": {
+    "crash": 0.0,
+    "trip": 30.0,
+    "mean_max": 29.96306903902441,
+    "mean_final": 9.061976302042604
+  },
+  "moderate gusts (severity 2)|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 23.294780313782393,
+    "mean_final": 5.700026720762253
+  },
+  "moderate gusts (severity 2)|rl0+mon": {
+    "crash": 0.0,
+    "trip": 50.0,
+    "mean_max": 21.73977274056524,
+    "mean_final": 7.617332386039197
+  },
+  "moderate gusts (severity 2)|rl1": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 25.17313368860632,
+    "mean_final": 4.675149559788406
+  },
+  "moderate gusts (severity 2)|rl1+mon": {
+    "crash": 0.0,
+    "trip": 55.00000000000001,
+    "mean_max": 23.843008908443153,
+    "mean_final": 6.820664122514427
+  },
+  "large off-nominal start (+-150ft)|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 82.67277174387127,
+    "mean_final": 8.345414391160011
+  },
+  "large off-nominal start (+-150ft)|bc": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 96.72335508428515,
+    "mean_final": 26.083737242408098
+  },
+  "large off-nominal start (+-150ft)|bc+mon": {
+    "crash": 0.0,
+    "trip": 85.0,
+    "mean_max": 83.65906737819314,
+    "mean_final": 7.63641864489764
+  },
+  "large off-nominal start (+-150ft)|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 82.27638202700764,
+    "mean_final": 5.853943321481347
+  },
+  "large off-nominal start (+-150ft)|rl0+mon": {
+    "crash": 0.0,
+    "trip": 90.0,
+    "mean_max": 82.51820455081761,
+    "mean_final": 7.968634106963873
+  },
+  "large off-nominal start (+-150ft)|rl1": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 84.0107169508934,
+    "mean_final": 5.410105025395751
+  },
+  "large off-nominal start (+-150ft)|rl1+mon": {
+    "crash": 0.0,
+    "trip": 90.0,
+    "mean_max": 82.58114361595362,
+    "mean_final": 7.967827750556171
+  },
+  "sensor noise|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 24.660229383409025,
+    "mean_final": 9.382106198556722
+  },
+  "sensor noise|bc": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 30.12426551654935,
+    "mean_final": 12.949849146604539
+  },
+  "sensor noise|bc+mon": {
+    "crash": 0.0,
+    "trip": 50.0,
+    "mean_max": 27.411668308079243,
+    "mean_final": 8.745571797899903
+  },
+  "sensor noise|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 22.381263156421483,
+    "mean_final": 5.969287093542516
+  },
+  "sensor noise|rl0+mon": {
+    "crash": 0.0,
+    "trip": 45.0,
+    "mean_max": 19.481459081172943,
+    "mean_final": 7.548769264109433
+  },
+  "sensor noise|rl1": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 24.31431453078985,
+    "mean_final": 3.951419443450868
+  },
+  "sensor noise|rl1+mon": {
+    "crash": 0.0,
+    "trip": 50.0,
+    "mean_max": 19.668460944481193,
+    "mean_final": 6.519837626069784
+  },
+  "combined stress|pid": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 84.10685815364123,
+    "mean_final": 10.491929697431624
+  },
+  "combined stress|bc": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 99.53009368721396,
+    "mean_final": 25.64004561994225
+  },
+  "combined stress|bc+mon": {
+    "crash": 0.0,
+    "trip": 90.0,
+    "mean_max": 84.48621420841664,
+    "mean_final": 9.689693756215274
+  },
+  "combined stress|rl0": {
+    "crash": 0.0,
+    "trip": null,
+    "mean_max": 82.83815950900316,
+    "mean_final": 6.061393300071359
+  },
+  "combined stress|rl0+mon": {
+    "crash": 0.0,
+    "trip": 90.0,
+    "mean_max": 83.44105811435729,
+    "mean_final": 10.008257844112814
+  },
+  "combined stress|rl1": {
+    "crash": 10.0,
+    "trip": null,
+    "mean_max": 84.31695921067148,
+    "mean_final": 9.121659246273339
+  },
+  "combined stress|rl1+mon": {
+    "crash": 0.0,
+    "trip": 95.0,
+    "mean_max": 84.02497047986836,
+    "mean_final": 9.796622077934444
+  }
+}
